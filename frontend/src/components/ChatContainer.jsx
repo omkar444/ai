@@ -40,9 +40,9 @@ const ChatContainer = () => {
 
   return (
     <div className="flex h-full flex-col border border-stroke xl:w-4/4">
- <div className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 py-4 bg-gradient-to-r from-blue-200 via-blue-300 to-blue-400 shadow-md">
+ <div className="sticky top-0 flex items-center justify-between px-6 py-4 bg-gradient-to-r from-blue-200 via-blue-300 to-blue-400 shadow-md">
   <div className="flex items-center">
- 
+    
     <div className="mr-4 h-14 w-14 overflow-hidden rounded-full border-2 border-white shadow-lg">
       <img
         src={images}
